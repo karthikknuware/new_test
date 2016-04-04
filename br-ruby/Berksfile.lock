@@ -1,0 +1,14 @@
+DEPENDENCIES
+  apt
+  br-ruby
+    path: .
+    metadata: true
+  br-ruby-build
+    path: ../br-ruby-build-cookbook
+  yum
+
+GRAPH
+  apt (3.0.0)
+  br-ruby (0.5.0)
+  br-ruby-build (0.1.0)
+  yum (3.10.0)
